@@ -1,5 +1,6 @@
-package at.fhtechnikum.imperial;
+package main.java.at.fhtechnikum.imperial.Controller;
 
+import at.fhtechnikum.imperial.SpringBootApplication;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
