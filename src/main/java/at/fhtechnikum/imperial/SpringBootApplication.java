@@ -1,4 +1,4 @@
-package at.fhtechnikum.imperial;
+package main.java.at.fhtechnikum.imperial;
 
 public @interface SpringBootApplication {
 }
