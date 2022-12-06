@@ -7,8 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class ImperialApplication {
 
-	@GetMapping("/api/centimeter?inch={inch}")
-	public float calcRectangle(@PathVariable float inch){
-		return inch * 2.54;
+	public static void main(String[] args) {
+		SpringApplication.run(Imperial2Application.class, args);
 	}
+
 }
